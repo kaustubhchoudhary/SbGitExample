@@ -10,4 +10,9 @@ public class HomeController {
 	public String method1() {
 		return "Welcome";
 	}
+	
+	@GetMapping("/new")
+	public String methdo2() {
+		return "This is some new content";
+	}
 }

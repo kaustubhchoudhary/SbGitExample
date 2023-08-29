@@ -7,8 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SbGitExampleApplication {
 
 	public static void main(String[] args) {
+		
 		SpringApplication.run(SbGitExampleApplication.class, args);
-		System.out.println("Hello");
+		
+		System.out.println("Greeting for the day");
+	
+		System.out.println("That is a great day");
+	
 	}
-
 }
